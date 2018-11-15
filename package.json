@@ -1,0 +1,20 @@
+{
+  "name": "webpack4-css-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --progress --colors --config ./webpack.config.js"
+  },
+  "author": "liqing",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.3"
+  }
+}
